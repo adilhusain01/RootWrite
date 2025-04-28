@@ -445,8 +445,8 @@ export default function ContractGeneratorForm() {
                 No Contract Generated Yet
               </h3>
               <p className="text-muted-foreground">
-                Fill in your requirements and click "Generate Contract" to
-                create a custom smart contract with AI.
+                Fill in your requirements and click &quot;Generate
+                Contract&quot; to create a custom smart contract with AI.
               </p>
             </div>
           </div>
