@@ -23,7 +23,8 @@ export default function Home() {
                 <span className="block mt-2">Smart Contract Generator</span>
               </h1>
               <p className="text-xl text-muted-foreground md:text-2xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Generate custom smart contracts for Rootstock in seconds using AI. No coding experience required.
+                Generate custom smart contracts for Rootstock in seconds using
+                AI. No coding experience required.
               </p>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
                 <Link href="/contract-generator">
@@ -41,12 +42,13 @@ export default function Home() {
             </div>
             <div className="mx-auto lg:ml-auto">
               <div className="relative rounded-xl overflow-hidden shadow-xl">
-                <img
+                <Image
                   alt="Smart Contract Generator"
                   className="mx-auto overflow-hidden rounded-xl object-cover"
                   height={400}
                   src="https://res.cloudinary.com/djxuqljgr/image/upload/v1745824339/rootwrite_hypoeu.webp"
                   width={720}
+                  priority // Add priority prop for LCP optimization
                 />
                 <div className="absolute inset-0 bg-gradient-to-tr from-[#ff9103]/20 via-transparent to-[#ff70e1]/20"></div>
               </div>
@@ -63,7 +65,8 @@ export default function Home() {
               Why Choose RootWrite
             </h2>
             <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              The easiest way to create secure, custom smart contracts for Rootstock
+              The easiest way to create secure, custom smart contracts for
+              Rootstock
             </p>
           </div>
           <div className="mx-auto grid max-w-5xl gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -73,7 +76,8 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold">AI-Powered Generation</h3>
               <p className="mt-2 text-muted-foreground flex-grow">
-                Describe your requirements in natural language and get a ready-to-deploy smart contract in seconds.
+                Describe your requirements in natural language and get a
+                ready-to-deploy smart contract in seconds.
               </p>
             </Card>
             <Card className="flex flex-col p-6 bg-gradient-to-b from-background to-muted/50 h-full">
@@ -82,7 +86,8 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold">Rootstock Optimized</h3>
               <p className="mt-2 text-muted-foreground flex-grow">
-                Automatically optimized for Rootstock's blockchain with gas-efficient patterns and security best practices.
+                Automatically optimized for Rootstock&apos;s blockchain with
+                gas-efficient patterns and security best practices.
               </p>
             </Card>
             <Card className="flex flex-col p-6 bg-gradient-to-b from-background to-muted/50 h-full">
@@ -91,7 +96,8 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold">Seamless Deployment</h3>
               <p className="mt-2 text-muted-foreground flex-grow">
-                Edit, test, and deploy your contract to Rootstock with one-click integration to Remix IDE.
+                Edit, test, and deploy your contract to Rootstock with one-click
+                integration to Remix IDE.
               </p>
             </Card>
           </div>
@@ -108,7 +114,8 @@ export default function Home() {
                   Ready to Build on Rootstock?
                 </h2>
                 <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Start creating your custom smart contracts today and deploy them to the Rootstock blockchain in minutes.
+                  Start creating your custom smart contracts today and deploy
+                  them to the Rootstock blockchain in minutes.
                 </p>
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -123,7 +130,9 @@ export default function Home() {
             <div className="mx-auto flex items-center justify-center">
               <Card className="p-6 shadow-lg border-2 border-muted">
                 <div className="space-y-2">
-                  <h3 className="text-2xl font-bold">Supported Contract Types</h3>
+                  <h3 className="text-2xl font-bold">
+                    Supported Contract Types
+                  </h3>
                   <ul className="grid gap-2">
                     <li className="flex items-center gap-2">
                       <div className="h-2 w-2 rounded-full bg-[#ff9103]"></div>
